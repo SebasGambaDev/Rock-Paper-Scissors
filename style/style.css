@@ -1,0 +1,89 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(hsl(214, 47%, 23%) ,hsl(237, 49%, 15%)) ;
+    background-size:cover ;
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.footer-btn {
+    width: 100px;
+}
+
+.footer-cont{
+    display: flex;
+    justify-content: end;
+}
+
+.hide{
+    display: none;
+}
+
+.icons{
+    height: 340px;
+}
+.icon{
+    width: 130px;
+    height: 130px;
+    border: 15px solid;
+    padding: 20px;
+    background-color: white
+}
+
+#eleccion{
+    background-image: url('/images/bg-triangle.svg') ;
+    background-size: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    margin-top: 70px;
+}
+
+#eleccion>div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media(max-width:450px){
+    .icon {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .icons {
+        height: 300px;
+    }
+
+    .footer-cont{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0 40px 0;
+
+    }
+
+    #eleccion{
+        background-size: 250px;
+        margin-top: 70px;
+    }
+      
+}
+
+
+
+
+
+
